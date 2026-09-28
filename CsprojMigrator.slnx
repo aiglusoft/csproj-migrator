@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CsprojMigrator/CsprojMigrator.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CsprojMigrator.Tests/CsprojMigrator.Tests.csproj" />
+  </Folder>
+</Solution>

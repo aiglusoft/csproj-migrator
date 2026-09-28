@@ -1,0 +1,34 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+
+## .NET
+*.user
+*.suo
+.vs/
+_TestResults/
+TestResults/
+coverage*/
+*.coveragexml
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## Migration outputs (generated, never commit)
+migration-plan.json
+migration-report.json
+migration.yml
+Directory.Packages.props.bak
+
+## OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
