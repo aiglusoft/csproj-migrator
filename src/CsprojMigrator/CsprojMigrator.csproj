@@ -6,8 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>csproj-migrator</AssemblyName>
-    <RootNamespace>CsprojMigrator</RootNamespace>
+    <PackageId>csproj-migrator</PackageId>
+    <RootNamespace>Aiglusoft.CsprojMigrator</RootNamespace>
     <Version>0.1.0</Version>
+    <Authors>Imed Ben Youssef</Authors>
+    <Company>Aiglusoft</Company>
+    <Copyright>Copyright © 2026 Aiglusoft. Tous droits réservés.</Copyright>
     <Description>CLI automating .NET legacy to multi-target migration (A=source, B=reference, C=destination).</Description>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>csproj-migrator</ToolCommandName>

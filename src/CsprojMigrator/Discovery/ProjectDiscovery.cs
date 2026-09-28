@@ -1,6 +1,10 @@
-using CsprojMigrator.Models;
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
 
-namespace CsprojMigrator.Discovery;
+using Aiglusoft.CsprojMigrator.Models;
+
+namespace Aiglusoft.CsprojMigrator.Discovery;
 
 public sealed class ProjectDiscovery
 {

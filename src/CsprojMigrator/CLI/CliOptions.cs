@@ -1,4 +1,8 @@
-namespace CsprojMigrator.Cli;
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
+
+namespace Aiglusoft.CsprojMigrator.Cli;
 
 public sealed class CliOptions
 {

@@ -1,6 +1,10 @@
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
+
 using System.Xml.Linq;
 
-namespace CsprojMigrator.Packages;
+namespace Aiglusoft.CsprojMigrator.Packages;
 
 public sealed class CentralPackageManager
 {

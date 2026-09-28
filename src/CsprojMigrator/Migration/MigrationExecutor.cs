@@ -1,10 +1,14 @@
-using CsprojMigrator.Models;
-using CsprojMigrator.Packages;
-using CsprojMigrator.Projects;
-using CsprojMigrator.Repository;
-using CsprojMigrator.Validation;
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
 
-namespace CsprojMigrator.Migration;
+using Aiglusoft.CsprojMigrator.Models;
+using Aiglusoft.CsprojMigrator.Packages;
+using Aiglusoft.CsprojMigrator.Projects;
+using Aiglusoft.CsprojMigrator.Repository;
+using Aiglusoft.CsprojMigrator.Validation;
+
+namespace Aiglusoft.CsprojMigrator.Migration;
 
 public sealed record ExecutionResult(
     bool Success,

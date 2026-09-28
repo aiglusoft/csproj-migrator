@@ -1,7 +1,11 @@
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
+
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace CsprojMigrator.Configuration;
+namespace Aiglusoft.CsprojMigrator.Configuration;
 
 public sealed class MigratorConfig
 {

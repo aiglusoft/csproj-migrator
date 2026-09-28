@@ -1,5 +1,10 @@
 # Csproj Migrator
 
+> © 2026 Aiglusoft — Tous droits réservés. Ce dépôt fait partie du patrimoine
+> logiciel d'Aiglusoft et est régi par la licence propriétaire (`LICENSE`, voir `NOTICE`).
+>
+> Auteur : **Imed Ben Youssef**.
+
 CLI .NET 8 automating legacy → multi-target migration using three local repositories:
 
 - **A — Source / Legacy**: read-only source of truth (never modified).
@@ -37,4 +42,5 @@ dotnet build
 dotnet test
 ```
 
-See `Spécification technique — Csproj Migrator.md` for the full specification (§1–§57).
+See [`docs/`](docs/index.md) for the full documentation
+(getting started, CLI reference, configuration, architecture, safety rules, CI/CD).

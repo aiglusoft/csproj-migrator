@@ -1,12 +1,16 @@
-using CsprojMigrator.Code;
-using CsprojMigrator.Configuration;
-using CsprojMigrator.Dependencies;
-using CsprojMigrator.Discovery;
-using CsprojMigrator.Frameworks;
-using CsprojMigrator.Models;
-using CsprojMigrator.Packages;
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
 
-namespace CsprojMigrator.Tests;
+using Aiglusoft.CsprojMigrator.Code;
+using Aiglusoft.CsprojMigrator.Configuration;
+using Aiglusoft.CsprojMigrator.Dependencies;
+using Aiglusoft.CsprojMigrator.Discovery;
+using Aiglusoft.CsprojMigrator.Frameworks;
+using Aiglusoft.CsprojMigrator.Models;
+using Aiglusoft.CsprojMigrator.Packages;
+
+namespace Aiglusoft.CsprojMigrator.Tests;
 
 public sealed class NormalizerTests
 {

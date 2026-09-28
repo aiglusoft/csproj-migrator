@@ -1,0 +1,25 @@
+# Copyright © 2026 Aiglusoft. Tous droits réservés.
+# Ce fichier fait partie du patrimoine logiciel d'Aiglusoft (licence propriétaire, voir LICENSE).
+
+name: Publish to NuGet
+
+on:
+  push:
+    tags: [ "v*" ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # requis pour NuGet trusted publishing (OIDC)
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Pack
+        run: dotnet pack src/CsprojMigrator -c Release -o ./nupkg
+      - name: Push to NuGet.org
+        run: dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json

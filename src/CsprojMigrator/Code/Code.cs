@@ -1,9 +1,13 @@
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
+
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
-using CsprojMigrator.Frameworks;
-using CsprojMigrator.Models;
+using Aiglusoft.CsprojMigrator.Frameworks;
+using Aiglusoft.CsprojMigrator.Models;
 
-namespace CsprojMigrator.Code;
+namespace Aiglusoft.CsprojMigrator.Code;
 
 public sealed record SourceFileAnalysis(
     string FilePath,

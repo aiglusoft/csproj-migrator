@@ -1,7 +1,11 @@
+// Copyright © 2026 Aiglusoft. Tous droits réservés.
+// Ce fichier fait partie du patrimoine logiciel d'Aiglusoft. Toute reproduction,
+// modification, distribution ou utilisation sans autorisation écrite préalable est interdite.
+
 using System.Diagnostics;
 using System.Text.Json;
 
-namespace CsprojMigrator.Validation;
+namespace Aiglusoft.CsprojMigrator.Validation;
 
 public sealed record StepResult(string Step, string Project, string Tfm, bool Success, string? Output);
 
