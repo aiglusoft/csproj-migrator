@@ -1,0 +1,8 @@
+# aiglusoft.yaml — généré par `aiglusoft config init` (complétez si besoin).
+schema: "1.0"
+products:
+  - name: csproj-migrator
+    version:
+      source: csproj
+      file: src/CsprojMigrator/CsprojMigrator.csproj
+      current: 0.1.0

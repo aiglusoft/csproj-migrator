@@ -25,6 +25,11 @@ public sealed class CliOptions
             return false;
         }
         var cmd = args[0].ToLowerInvariant();
+        if (cmd is "-h" or "--help" or "help")
+        {
+            error = "HELP";
+            return false;
+        }
         if (cmd is not ("analyze" or "plan" or "migrate" or "validate"))
         {
             error = $"Unknown command '{args[0]}'. Expected analyze|plan|migrate|validate.";
