@@ -32,3 +32,5 @@ Directory.Packages.props.bak
 Thumbs.db
 *.swp
 .idea/
+
+!.aiglusoft/

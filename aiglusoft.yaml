@@ -5,4 +5,4 @@ products:
     version:
       source: csproj
       file: src/CsprojMigrator/CsprojMigrator.csproj
-      current: 0.1.0
+      current: 0.1.1
